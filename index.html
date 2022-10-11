@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Helen's 50th Birthday Invite!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="container">
+        
+    <div id="top">
+    <img id="skellyL" src="skeleton_dance.gif" width="100px">
+        
+    <img id="skellyR" src="skeleton_dance.gif" width="100px">    
+        
+    <h1 id="header">Celebrate Helen's 50th!</h1>
+        
+    
+        
+    </div>
+   
+        
+    <div id="description">
+        <h2>Details</h2>
+        <p>This halloween party has come early in order to celebrate Helen's 50th! You've been invited, and we hope you will join in on this spooky celebration! <span class="italics">Come dressed in your best costume</span>, although nothing will be scarier than turning 50!</p>
+        <br>
+        
+        <h3>When</h3>
+        <ul>
+            <li>Saturday October 22nd</li>
+                <ul>
+                <li>From 12pm to 9pm</li>
+                </ul>
+        </ul>
+    
+        <h3>Where</h3>
+        <ul>
+            <li>Helen's infamous house</li>
+            <ul>
+                <li>511 Acorn St</li>
+                </ul>
+        </ul>
+    <div id="gifts">
+        <a href="https://www.amazon.com/registries">Need Gift Ideas?</a>
+        
+    </div>
+    
+    <div id="dashes">
+    <p>---</p>
+    </div>
+        
+    <div id="rsvp">
+        <a  id="clicker" href="#">RSVP!</a>
+        
+        
+    </div>
+        
+    </div>
+    
+    <div id="pumpkin">
+        
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.4.2/lib/p5.js">
+        </script> 
+        <script src="sketch.js"></script>
+
+    </div>
+    
+    
+        
+    </div>
+
+    <script>
+    let  clickerButton = document.getElementById("clicker");
+    let uniqueHeader = document.getElementById("header")
+    let onButtonClick = function() {
+        uniqueHeader.innerHTML = "Can't Wait to See You!";
+        clickerButton.innerHTML = "Now Get Her a Gift!";
+    };
+        
+    clickerButton.addEventListener("click", onButtonClick);
+        
+    
+    
+    
+        
+    </script>
+    
+    
+</body>
+
+
+
+</html>

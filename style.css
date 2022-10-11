@@ -1,0 +1,155 @@
+body {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    
+}
+
+.italics {
+    font-style: italic;
+    text-decoration: underline;
+}
+#header {
+    padding-top: 10px;
+}
+
+#top {
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ff8900;
+    padding: 10px 5px;
+    overflow: hidden;
+}
+#skellyL {
+    float: left;
+    background-color: #e67300;
+    border: 2px groove #ffa05b;
+    transform: scaleX(-1);
+}
+
+#skellyR {
+    float: right;
+    background-color: #e67300;
+    border: 2px groove #ffa05b;
+}
+
+#container {
+    margin: 50px auto;
+    padding: 10px 15px 15px;
+    border: 5px groove #c47100;
+    border-right: 3px dashed #c47100;
+    border-left: 3px dashed #c47100;
+    width: 95%;
+    overflow: hidden;
+    
+}
+
+
+#description {
+    border: 1px dashed white;
+    padding: 0px 10px;
+    float: right;
+    width: 50%;
+    padding-bottom: 10px;
+    
+}
+
+#gifts {
+    border: 1px solid white;
+    background-color: #5a5a5a;
+    margin: 5px auto 0px;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
+#gifts a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#gifts a:hover {
+    color: #8968e5;
+    text-decoration: underline;
+    
+}
+
+#gifts a:visited {
+    color: #ff895d;
+}
+
+#gifts a:active {
+    color: #b157ea;
+}
+
+#gifts:hover {
+    background-color: #1a1a1a;
+}
+
+#pumpkin {
+    width: 45%;
+    float: left;
+    text-align: center;
+    padding: 0px 5px;
+    
+}
+
+canvas {
+    border: 6px groove grey;
+    
+}
+
+#dashes {
+    text-align: center;
+    margin: 10px 0px;
+}
+
+#rsvp {
+    background-color: #a52020;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid white;
+}
+
+
+#rsvp a:link {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#rsvp a:hover {
+    color: #00ea00;
+    text-decoration: underline;
+    
+}
+
+#rsvp a:visited {
+    color: #b0ffb9;
+}
+
+#rsvp a:active {
+    color: #9bea57;
+}
+
+#rsvp:hover {
+    background-color: #1a1a1a;
+}
+
+
+
+
+
+
+
+
+
+
+
